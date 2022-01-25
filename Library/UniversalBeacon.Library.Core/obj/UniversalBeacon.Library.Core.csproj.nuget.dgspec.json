@@ -1,0 +1,52 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/bingue/Projects/testBeacon/Library/UniversalBeacon.Library.Core/UniversalBeacon.Library.Core.csproj": {}
+  },
+  "projects": {
+    "/Users/bingue/Projects/testBeacon/Library/UniversalBeacon.Library.Core/UniversalBeacon.Library.Core.csproj": {
+      "version": "4.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/bingue/Projects/testBeacon/Library/UniversalBeacon.Library.Core/UniversalBeacon.Library.Core.csproj",
+        "projectName": "UniversalBeaconLibrary",
+        "projectPath": "/Users/bingue/Projects/testBeacon/Library/UniversalBeacon.Library.Core/UniversalBeacon.Library.Core.csproj",
+        "packagesPath": "/Users/bingue/.nuget/packages/",
+        "outputPath": "/Users/bingue/Projects/testBeacon/Library/UniversalBeacon.Library.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/bingue/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard1.3"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard1.3": {
+            "targetAlias": "netstandard1.3",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard1.3": {
+          "targetAlias": "netstandard1.3",
+          "dependencies": {
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[1.6.1, )",
+              "autoReferenced": true
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.404/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
