@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>portable</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.6.1" />
+    <PackageReference Include="Plugin.Permissions" Version="6.0.1" />
+    <PackageReference Include="Plugin.BLE" Version="2.1.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="UniversalBeaconLibrary" />
+    <None Remove="opennetcf-ioc-standard" />
+    <None Remove="Plugin.Permissions" />
+    <None Remove="Services\" />
+    <None Remove="Plugin.BLE" />
+    <None Remove="MvvmCross.Plugin.BLE" />
+    <None Remove="ViewModels\" />
+    <None Remove="MvvmCross" />
+    <None Remove="MvxExtensions.Plugins.Logger" />
+    <None Remove="artm.MvxPlugins.Logger" />
+    <None Remove="AndroidAltBeaconLibrary" />
+    <None Remove="Interfaces\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Services\" />
+    <Folder Include="ViewModels\" />
+    <Folder Include="Interfaces\" />
+  </ItemGroup>
+</Project>

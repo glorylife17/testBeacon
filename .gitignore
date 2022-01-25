@@ -1,0 +1,9 @@
+.vs
+Library/UniversalBeacon.Library.Android/bin
+Library/UniversalBeacon.Library.Android/obj
+testBeacon/bin
+testBeacon/obj
+testBeacon.Android/bin
+testBeacon.Android/obj
+testBeacon.iOS/bin
+testBeacon.iOS/obj
